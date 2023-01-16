@@ -55,9 +55,9 @@ export const fs_label: string = "荧妹赛高！";
 //描述(WEB版API)
 export const fs_desc: string = "荧妹单推人就是我哒！";
 //番剧分数
-export const fs_rating: number = 2233;
+export const fs_rating: number = 7355608;
 //打分人数
-export const fs_vote: number = 7355608;
+export const fs_vote: number = 22330000;
 //立即观看按钮-主选项标题
 export const fs_watch_button_title: string = "我的主页";
 //立即观看按钮-主选项链接
