@@ -86,6 +86,7 @@ export const fs_episodes_app = [
         border_color_night: "#BB5B76",
         bg_style: 1,
       },
+      ],
   },
   {
     title: "我的B站",
