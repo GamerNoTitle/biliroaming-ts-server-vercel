@@ -67,7 +67,7 @@ export const fs_follow_button_title: string = "3Q";
 //追番按钮-取消追番
 export const fs_unfollow_button_title: string = "N/A";
 //番剧封面右上角标签
-export const fs_badges: string = "萨日朗";
+export const fs_badges: string = "Maintainer";
 //番剧剧集显示方式 grid-单行方块(按钮式) horizontal-列表长条(横条式)
 export const fs_selection_style: "grid" | "horizontal" = "horizontal";
 //番剧剧集数据(APP端API)
