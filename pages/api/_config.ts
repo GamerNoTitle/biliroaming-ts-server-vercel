@@ -93,7 +93,7 @@ export const fs_episodes_app = [
     uri: "https://space.bilibili.com/44666814",
     badges: [
       {
-        text: ":>",
+        text: "哔哩哔哩",
         text_color: "#FFFFFF",
         text_color_night: "#FFFFFF",
         bg_color: "#FB7299",
@@ -105,27 +105,11 @@ export const fs_episodes_app = [
     ],
   },
   {
-    title: "爱发电赞助",
+    title: "爱发电赞助，感谢老板！",
     uri: "https://afdian.net/@GamerNoTitle",
     badges: [
       {
         text: "用爱发电",
-        text_color: "#FFFFFF",
-        text_color_night: "#FFFFFF",
-        bg_color: "#34AF68",
-        bg_color_night: "#34AF68",
-        border_color: "#34AF68",
-        border_color_night: "#34AF68",
-        bg_style: 1,
-      },
-    ],
-  },
-   {
-    title: "微信赞助",
-    uri: "https://cdn.bilicdn.tk/gh/GamerNoTitle/Picture-repo-v1@master/img/Payments/WeChat.png",
-    badges: [
-      {
-        text: "绿色修改器",
         text_color: "#FFFFFF",
         text_color_night: "#FFFFFF",
         bg_color: "#9666E3",
@@ -137,7 +121,23 @@ export const fs_episodes_app = [
     ],
   },
    {
-    title: "支付宝赞助",
+    title: "微信赞助，感谢老板！",
+    uri: "https://cdn.bilicdn.tk/gh/GamerNoTitle/Picture-repo-v1@master/img/Payments/WeChat.png",
+    badges: [
+      {
+        text: "绿色修改器",
+        text_color: "#FFFFFF",
+        text_color_night: "#FFFFFF",
+        bg_color: "#34AF68",
+        bg_color_night: "#34AF68",
+        border_color: "#34AF68",
+        border_color_night: "#34AF68",
+        bg_style: 1,
+      },
+    ],
+  },
+   {
+    title: "支付宝赞助，感谢老板！",
     uri: "https://cdn.bilicdn.tk/gh/GamerNoTitle/Picture-repo-v1@master/img/Payments/AliPay.jpg",
     badges: [
       {
