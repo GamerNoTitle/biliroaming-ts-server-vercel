@@ -42,30 +42,30 @@ export const api_oauth = {
 //===========================替换搜索 Fuck Search================================
 //添加假番剧作公告板
 //标题 <em class="keyword">标签可以重点标注
-export const fs_title: string = '功能测试 <em class="keyword">xrz</em>';
+export const fs_title: string = '感谢使用由 <em class="keyword">GamerNoTitle</em> 提供的哔哩漫游服务器';
 //封面
 export const fs_cover: string =
-  "https://i0.hdslb.com/bfs/face/046974d6dde4af386f7eb4f231b84ec08bad693b.jpg";
+  "https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Miscellaneous/Lumine_20230115_115045.jpg";
 //用处不明
-export const fs_uri: string = "https://xrz.cool";
+export const fs_uri: string = "https://bili33.top";
 //标签-副标题1
-export const fs_style: string = "标签1 | 测试";
+export const fs_style: string = "荧妹单推人！";
 //标签-副标题2
-export const fs_label: string = "标签2 | test";
+export const fs_label: string = "荧妹赛高！";
 //描述(WEB版API)
-export const fs_desc: string = "这是一个公告哦！";
+export const fs_desc: string = "荧妹单推人就是我哒！";
 //番剧分数
-export const fs_rating: number = 10;
+export const fs_rating: number = 2233;
 //打分人数
-export const fs_vote: number = 1;
+export const fs_vote: number = 7355608;
 //立即观看按钮-主选项标题
-export const fs_watch_button_title: string = "立即观看";
+export const fs_watch_button_title: string = "我的主页";
 //立即观看按钮-主选项链接
-export const fs_watch_button_link: string = "https://cn.bing.com";
+export const fs_watch_button_link: string = "https://bili33.top";
 //追番按钮-追番
-export const fs_follow_button_title: string = "别点";
+export const fs_follow_button_title: string = "3Q";
 //追番按钮-取消追番
-export const fs_unfollow_button_title: string = "谢邀";
+export const fs_unfollow_button_title: string = "N/A";
 //番剧封面右上角标签
 export const fs_badges: string = "萨日朗";
 //番剧剧集显示方式 grid-单行方块(按钮式) horizontal-列表长条(横条式)
@@ -73,15 +73,26 @@ export const fs_selection_style: "grid" | "horizontal" = "horizontal";
 //番剧剧集数据(APP端API)
 export const fs_episodes_app = [
   {
-    title: "教程",
-    uri: "https://github.com/yujincheng08/BiliRoaming/wiki#使用方法",
-  },
-  {
-    title: "官方反馈群",
-    uri: "https://t.me/biliroaming",
+    title: "我的主页",
+    uri: "https://bili33.top",
     badges: [
       {
-        text: "官方",
+        text: "欢迎光临",
+        text_color: "#FFFFFF",
+        text_color_night: "#E5E5E5",
+        bg_color: "#FB7299",
+        bg_color_night: "#BB5B76",
+        border_color: "#FB7299",
+        border_color_night: "#BB5B76",
+        bg_style: 1,
+      },
+  },
+  {
+    title: "我的B站",
+    uri: "https://space.bilibili.com/44666814",
+    badges: [
+      {
+        text: ":>",
         text_color: "#FFFFFF",
         text_color_night: "#E5E5E5",
         bg_color: "#FB7299",
@@ -91,23 +102,7 @@ export const fs_episodes_app = [
         bg_style: 1,
       },
     ],
-  },
-  {
-    title: "这里没东西",
-    uri: "https://www.bilibili.com/video/av928861104",
-    badges: [
-      {
-        text: "愿者上勾",
-        text_color: "#FFFFFF",
-        text_color_night: "#E5E5E5",
-        bg_color: "#FB7299",
-        bg_color_night: "#BB5B76",
-        border_color: "#FB7299",
-        border_color_night: "#BB5B76",
-        bg_style: 1,
-      },
-    ],
-  },
+  }
 ];
 //番剧剧集数据(WEB端API) 在官方WEB中，long_title与index_title设置可能无效，显示的为title (显示为：index_title空格long_title) ；cover不显示
 //此处参考 https://github.com/SocialSisterYi/bilibili-API-collect/blob/master/search/search_response.md#%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B2-%E7%BB%93%E6%9E%9C%E4%B8%BA%E7%95%AA%E5%89%A7%E5%BD%B1%E8%A7%86
@@ -194,14 +189,14 @@ export const whitelist_vip_enabled: io = 0;
 
 //===================获取公共黑白名单============================
 //功能开关 1-开 0-关
-export const public_blacklist_enabled: io = 0;
+export const public_blacklist_enabled: io = 1;
 //公共黑名单地址 要求：URL后需可以直接加 UID/mid
 export const public_blacklist: string = "https://black.qimo.ink/api/users/";
 //============================================================
 
 //=====================限制API调用=============================
 //要求登录 1-开 0-关
-export const need_login: io = 1;
+export const need_login: io = 0;
 //允许WEB版使用 1-开 0-关
 export const web_on: io = 1;
 //限制哔哩漫游最低版本(需设置 web_on = 0) 填写数字 0-不限制
@@ -209,7 +204,7 @@ export const web_on: io = 1;
 export const ver_min: number = 1084;
 //锁区，填写的是支持的地区 cn-中国大陆 hk-中国香港 tw-中国台湾 th-泰国/新加坡/东南亚地区
 //TODO 暂时未加地区检测，访问不支持地区由B站服务器提示错误。
-export const block_region: _block_region = ["hk"];
+export const block_region: _block_region = [];
 //============================================================
 
 //=====================获取非官方泰区字幕========================
