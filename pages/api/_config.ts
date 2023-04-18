@@ -39,13 +39,15 @@ export const api_oauth = {
 };
 //==============================================================================
 
+//==============================================================================
+
 //===========================替换搜索 Fuck Search================================
 //添加假番剧作公告板
 //标题 <em class="keyword">标签可以重点标注
 export const fs_title: string = '感谢使用由 <em class="keyword">GamerNoTitle</em> 提供的哔哩漫游服务器';
 //封面
 export const fs_cover: string =
-  "https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Miscellaneous/Lumine_20230115_115045.jpg";
+  "https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Miscellaneous/97387456_p0.jpg";
 //用处不明
 export const fs_uri: string = "https://bili33.top";
 //标签-副标题1
@@ -105,49 +107,17 @@ export const fs_episodes_app = [
     ],
   },
   {
-    title: "爱发电赞助，感谢老板！",
-    uri: "https://afdian.net/@GamerNoTitle",
+    title: "请我恰饭，感谢老板！",
+    uri: "https://bili33.top/sponsors/",
     badges: [
       {
-        text: "用爱发电",
+        text: "要恰饭的嘛",
         text_color: "#FFFFFF",
         text_color_night: "#FFFFFF",
-        bg_color: "#9666E3",
-        bg_color_night: "#9666E3",
-        border_color: "#9666E3",
-        border_color_night: "#9666E3",
-        bg_style: 1,
-      },
-    ],
-  },
-   {
-    title: "微信赞助，感谢老板！",
-    uri: "https://cdn.bilicdn.tk/gh/GamerNoTitle/Picture-repo-v1@master/img/Payments/WeChat.png",
-    badges: [
-      {
-        text: "绿色修改器",
-        text_color: "#FFFFFF",
-        text_color_night: "#FFFFFF",
-        bg_color: "#34AF68",
-        bg_color_night: "#34AF68",
-        border_color: "#34AF68",
-        border_color_night: "#34AF68",
-        bg_style: 1,
-      },
-    ],
-  },
-   {
-    title: "支付宝赞助，感谢老板！",
-    uri: "https://cdn.bilicdn.tk/gh/GamerNoTitle/Picture-repo-v1@master/img/Payments/AliPay.jpg",
-    badges: [
-      {
-        text: "蓝色修改器",
-        text_color: "#FFFFFF",
-        text_color_night: "#FFFFFF",
-        bg_color: "#389DE8",
-        bg_color_night: "#389DE8",
-        border_color: "#389DE8",
-        border_color_night: "#389DE8",
+        bg_color: "#8E8CD8",
+        bg_color_night: "#8E8CD8",
+        border_color: "#8E8CD8",
+        border_color_night: "#8E8CD8",
         bg_style: 1,
       },
     ],
