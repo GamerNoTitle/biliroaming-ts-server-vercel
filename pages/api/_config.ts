@@ -47,7 +47,7 @@ export const api_oauth = {
 export const fs_title: string = '感谢使用由 <em class="keyword">GamerNoTitle</em> 提供的哔哩漫游服务器';
 //封面
 export const fs_cover: string =
-  "https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Miscellaneous/97387456_p0.jpg";
+  "https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Miscellaneous/111214331_p0.jpg";
 //用处不明
 export const fs_uri: string = "https://bili33.top";
 //标签-副标题1
